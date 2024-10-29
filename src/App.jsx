@@ -9,10 +9,9 @@ import About from './components/pages/About'
 function App() {
 
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col items-center w-screen'>
       <Navbar />
       <Landing />
-      <Spacer icon={<FaRegFolderOpen />}/>
       <About />
       <Projects />
     </div>
